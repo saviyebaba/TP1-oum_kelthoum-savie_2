@@ -1,0 +1,9 @@
+<soap:envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:bib="http://supnum.mr/bibliotheque">
+  <soap:Body>
+    <bib:rendreLivre>
+      <bib:numero>E-2026-0812</bib:numero>
+    </rendreLivre>
+  </soap:Body>
+  <soap:Header><bib:jeton>abc123</bib:jeton></soap:Header>
+</soap:Envelope>
